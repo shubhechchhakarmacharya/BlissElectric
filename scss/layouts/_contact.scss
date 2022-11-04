@@ -1,0 +1,321 @@
+.contact {
+    .wrapper {
+        .container {
+            .topic {
+                text-align: center;
+                margin-bottom: 20px;
+
+                h1 {
+                    font-size: 120px;
+                    font-weight: 700;
+                    color: #0A0A0A1A;
+                    line-height: 0;
+                }
+
+                h3 {
+                    font-size: 51px;
+                    font-weight: 500;
+                }
+            }
+
+            .wrap {
+                margin-top: 70px;
+
+                .row {
+                    .col-sm-6 {
+                        .item {
+                            margin-top: 40px;
+                            display: flex;
+                            border: none;
+                            width: 100%;
+                            background-color: transparent;
+                            transform: translate(0, 0);
+                            margin-bottom: 0px;
+                            margin-right: 0px;
+
+                            &:first-child {
+                                margin-top: 0;
+                            }
+                        }
+
+                        .icon {
+                            i {
+                                color: $primaryColor;
+                                font-size: 37px;
+                                margin-right: 14px;
+                            }
+                        }
+
+                        .text {
+                            p {
+                                color: #0A0A0A99;
+                                font-size: 15px;
+                                font-weight: 500;
+                                line-height: 0;
+                            }
+
+                            h4 {
+                                font-size: 25px;
+                                font-weight: 600;
+                            }
+                        }
+
+                        .form {
+                            form {
+                                .first {
+                                    .form-control {
+                                        margin-top: -5px;
+                                        box-shadow: 1px 4px 14px 4px #0a0a0a14;
+                                        border: none;
+                                        color: #ffffff;
+                                        padding: 15px 25px;
+                                        border-radius: 0;
+                                        margin-right: 30px;
+                                        margin-bottom: 20px;
+                                        color: #000000;
+                                        ::placeholder {
+                                            color: #0A0A0A66;
+                                            font-size: 15px;
+                                        }
+                                    }
+                                }
+
+                                textarea {
+                                    margin-top: -5px;
+                                    box-shadow: 1px 4px 14px 4px #0a0a0a14;
+                                    border: none;
+                                    color: #ffffff;
+                                    width: 607px;
+                                    height: 110px;
+                                    padding: 15px 25px;
+                                    border-radius: 0;
+                                    resize: none;
+                                    color: #000000;
+
+                                    ::placeholder {
+                                        color: #0A0A0A66;
+                                        font-size: 15px;
+                                    }
+                                }
+                            }
+
+                            button {
+                                padding: 10px 272px;
+                                border: 1px solid $primaryColor;
+                                background: $primaryColor;
+                                font-size: 17px;
+                                font-weight: 500;
+                                line-height: 19.94px;
+                                letter-spacing: 0.15px;
+                                color: #000000;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width:992px){
+    .contact {
+        .wrapper {
+            .container {
+                .topic {
+                    h1 {
+                    }
+    
+                    h3 {
+                    }
+                }
+    
+                .wrap {
+                    .row {
+                        .col-sm-6 {
+                            .item {
+    
+                                &:first-child {
+                                }
+                            }
+    
+                            .icon {
+                                i {
+                                }
+                            }
+    
+                            .text {
+                                p {
+                                }
+    
+                                h4 {
+                                }
+                            }
+    
+                            .form {
+                                margin-left: 20px;
+                                form {
+                                    .first {
+                                        .form-control {
+                                            ::placeholder {
+                                            }
+                                        }
+                                    }
+    
+                                    textarea {
+
+                                        width: 320px;
+                                        ::placeholder {
+                                        }
+                                    }
+                                }
+    
+                                button {
+                                    padding: 10px 129px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:768px){
+    .contact {
+        .wrapper {
+            .container {
+                .topic {
+                    h1 {
+                        font-size: 85px;
+                    }
+    
+                    h3 {
+                    }
+                }
+    
+                .wrap {
+                    .row {
+                        flex-direction: column;
+                        .col-sm-6 {
+                            .item {
+    
+                                &:first-child {
+                                }
+                            }
+    
+                            .icon {
+                                i {
+                                }
+                            }
+    
+                            .text {
+                                p {
+                                }
+    
+                                h4 {
+                                }
+                            }
+    
+                            .form {
+                                margin-top: 20px;
+                                form {
+                                    .first {
+                                        margin-top: 0px;
+                                        flex-direction: column;
+                                        .form-control {
+                                            ::placeholder {
+                                            }
+                                        }
+                                    }
+    
+                                    textarea {
+
+                                        width: 532px;
+                                        ::placeholder {
+                                        }
+                                    }
+                                }
+    
+                                button {
+                                    padding: 10px 233px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:576px){
+    .contact {
+        .wrapper {
+            .container {
+                .topic {
+                    h1 {
+                        font-size: 85px;
+                    }
+    
+                    h3 {
+                        font-size: 45px;
+                    }
+                }
+    
+                .wrap {
+                    .row {
+                        .col-sm-6 {
+                            .item {
+    
+                                &:first-child {
+                                }
+                            }
+    
+                            .icon {
+                                i {
+                                }
+                            }
+    
+                            .text {
+                                p {
+                                }
+    
+                                h4 {
+                                }
+                            }
+    
+                            .form {
+                                margin-top: 20px;
+                                form {
+                                    .first {
+                                        flex-direction: column;
+                                        .form-control {
+                                            ::placeholder {
+                                            }
+                                        }
+                                    }
+    
+                                    textarea {
+
+                                        width: 532px;
+                                        ::placeholder {
+                                        }
+                                    }
+                                }
+    
+                                button {
+                                    padding: 10px 233px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

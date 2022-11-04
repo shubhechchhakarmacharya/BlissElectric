@@ -1,0 +1,221 @@
+.service{
+    margin-top: 225px;
+    .container{
+        .wrapper{
+            .topic{
+                h1{
+                    font-size: 120px;
+                font-weight: 700;
+                color: #0A0A0A0F;
+                text-align: center;
+                line-height: 0;
+                }
+                h3{
+                    font-size: 51px;
+                    text-align: center;
+                }
+            }
+            .content{
+    
+                margin-top: 60px;
+                .row{
+                    margin-top: 30px;
+                    .col-sm-4{
+                        .wrap{
+                            margin-right: 40px;
+                            position: relative;
+                            img{
+                                border: 2px solid #FFFA4D33;
+                                background-color: #FFFA4D33;
+                                border-radius: 11px;
+                                width: 10%;
+                                padding: 8px;
+                                margin-bottom: 15px;
+                            }
+                            .no{
+                                position: absolute;
+                                font-weight:700;
+                                font-size:209px;
+                                color: #0A0A0A0F;
+                                right: 0;
+                                top: -90px;
+                            }
+                            .text{
+                                h3{
+                                    margin-top: 15px;
+                                    font-weight: 500;
+                                    font-size: 17px;
+                                    color:#281051;
+                                    line-height: 20px;
+                                    letter-spacing: 0.15;
+                                }
+                                p{
+                                    font-size: 15px;
+                                    color: #0A0A0A99;
+                                    line-height: 19.6px;
+                                    letter-spacing: 0.25;
+                                }
+                            }
+                        }
+                        border: 1px solid white;
+                            border-radius: 11px;
+                            padding: 20px 10px;
+                        &:hover{
+                            border: 1px solid $primaryColor;
+                            border-radius: 11px;
+                        }
+                    }
+                }
+            }
+            .btn{
+                margin-top: 60px;
+                color: $primaryColor;
+                border: 1px solid $primaryColor;
+                margin-left: 41%;
+                padding: 10px 50px;
+                &:hover{
+                    background-color: $primaryColor;
+                    color: #000;
+                    
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:992px){
+    .service{
+        margin-top: 150px;
+        .container{
+            .wrapper{
+                .topic{
+                    h1{
+                    }
+                    h3{
+                    }
+                }
+                .content{
+        
+                    margin-top: 60px;
+                    .row{
+                        margin-top: 30px;
+                        .col-sm-4{
+                            .wrap{
+                                img{
+                                }
+                                .no{
+                                }
+                                .text{
+                                    h3{
+                                    }
+                                    p{
+                                    }
+                                }
+                            }
+                            &:hover{
+                            }
+                        }
+                    }
+                }
+                .btn{
+                    margin-top: 30px;
+                    &:hover{
+                        background-color: $primaryColor;
+                        color: #000;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:768px){
+    .service{
+        margin-top: 90px;
+        .container{
+            .wrapper{
+                .topic{
+                    h1{
+                        font-size: 75px;
+                    }
+                    h3{
+                        font-size: 33px;
+                    }
+                }
+                .content{
+                    .row{
+                        .col-sm-4{
+                            .wrap{
+                                img{
+                                }
+                                .no{
+                                }
+                                .text{
+                                    h3{
+                                    }
+                                    p{
+                                    }
+                                }
+                            }
+                            &:hover{
+                            }
+                        }
+                    }
+                }
+                .btn{
+                    &:hover{
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:576px){
+    .service{
+        margin-top: 90px;
+        .container{
+            .wrapper{
+                .topic{
+                    h1{
+                        font-size: 75px;
+                    }
+                    h3{
+                        font-size: 34px;
+                    }
+                }
+                .content{
+                    .row{
+                        .col-sm-4{
+                            .wrap{
+                                img{
+                                }
+                                .no{
+                                }
+                                .text{
+                                    h3{
+                                    }
+                                    p{
+                                    }
+                                }
+                            }
+                            &:hover{
+                            }
+                        }
+                    }
+                }
+                .btn{
+                    margin-top: 0;
+                    margin-left: 0%;
+                    &:hover{
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+

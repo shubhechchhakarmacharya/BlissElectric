@@ -1,0 +1,255 @@
+.aboutus {
+    margin-top: 40px;
+    .container {
+        .wrapper {
+            h1 {
+                font-size: 120px;
+                font-weight: 700;
+                color: #0A0A0A0F;
+                text-align: center;
+                line-height: 0;
+            }
+
+            h3 {
+                font-size: 51px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 36px;
+                color: #1B0146;
+                margin-top: 40px;
+                text-align: center;
+            }
+
+            .item {
+                margin-top: 50px;
+
+                .row {
+                    margin-top: 30px;
+                    .col-sm-6 {
+                        .image {
+                            img {
+                                height: auto;
+                            }
+                        }
+                    }
+
+                    .text {
+                        margin-left: 100px;
+                        font-size: 17px;
+                        line-height: 1.8;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.low{
+    .pink{
+        background-color: #E04DB01A;
+        .wrapper2{
+            .container{
+                .item2{
+                    .row{
+                        .col-sm-3{
+                            .wrap2{
+                                text-align: center;
+                                padding: 60px 0;
+                                padding-bottom: 55px;
+                                color: #E04DB0;
+                                h1{
+                                    font-size: 45px;
+                                    font-weight: 500;
+                                    line-height: 28.82px;
+                                }
+                                h4{
+                                    color: #E04DB0CC;
+                                    line-height: 19px;
+                                    font-size: 17px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:992px){
+    .aboutus {
+        .container {
+            .wrapper {
+                h1 {
+                }
+    
+                h3 {
+                }
+    
+                p {
+                    margin-top: 15px;
+                }
+    
+                .item {
+                    margin-top: 20px;
+                    .row {
+                        .col-sm-6 {
+                            .image {
+                                img {
+                                }
+                            }
+                        }
+    
+                        .text {
+                            margin-left: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .low{
+        margin-top: -30px;
+        .pink{
+            .wrapper2{
+                .container{
+                    .item2{
+                        .row{
+                            .col-sm-3{
+                                .wrap2{
+                                    h1{
+                                    }
+                                    h4{
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width:768px){
+    .aboutus {
+        .container {
+            .wrapper {
+                h1 {
+                    font-size: 90px;
+                }
+    
+                h3 {
+                }
+    
+                p {
+                }
+    
+                .item {
+                    .row {
+                        .col-sm-6 {
+                            .image {
+                                img {
+                                    margin-top: 85px;
+                                }
+                            }
+                        }
+    
+                        .text {
+                            margin-right: -65px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .low{
+        .pink{
+            .wrapper2{
+                .container{
+                    .item2{
+                        .row{
+                            .col-sm-3{
+                                .wrap2{
+                                    padding: 40px 0;
+                                    padding-bottom: 39px;
+                                    h1{
+                                        font-size: 30px;
+                                    }
+                                    h4{
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width:576px){
+    .aboutus {
+        .container {
+            .wrapper {
+                h1 {
+                    font-size: 85px;
+                }
+    
+                h3 {
+                }
+    
+                p {
+                }
+    
+                .item {
+                    .row {
+                        .col-sm-6 {
+                            .image {
+                                img {
+                                    margin-top: 10px;
+                                }
+                            }
+                        }
+    
+                        .text {
+                            margin-left: 28px;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .low{
+        .pink{
+            .wrapper2{
+                .container{
+                    .item2{
+                        .row{
+                            .col-sm-3{
+                                .wrap2{
+                                    padding: 41px 0;
+                                    padding-bottom: 28px;
+                                    h1{
+                                    }
+                                    h4{
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
